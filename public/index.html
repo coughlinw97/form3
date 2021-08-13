@@ -4,42 +4,142 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Form 3 Architecture - Home</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
-    <nav class="navbar navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light">
       <div class="container-fluid">
         <a class="navbar-brand" href="index.html">
-          <img src="images/647022bc-08ae-4358-b4b3-564636f7c722.jpg" alt="" width="100" height="25">
+          <img src="images/647022bc-08ae-4358-b4b3-564636f7c722.jpg" width="200" height="50">
         </a>
-        <div class="collapse navbar-collapse" id="navbarScroll">
-          <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" href="design-process.html">
-                DESIGN PROCESS
-              </a>
-              <li class="nav-item">
-                <a class="nav-link active" href="portfolio.html">
-                  PORTFOLIO
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="form-iconography.html">
-                  FORM ICONOGRAPHY
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="beyond-form.html">
-                  BEYOND FORM
-                </a>
-              </li>
+              <a class="nav-link" href="design-process.html">DESIGN PROCESS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="portfolio.html">PORTFOLIO</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="form-iconography.html">FORM ICONOGRAPHY</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="beyond-form">BEYOND FORM</a>
+            </li>
           </ul>
         </div>
       </div>
     </nav>
-    <div class="container">
 
+    <div id="housecarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#housecarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#housecarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#housecarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#housecarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="images/302beea2-f1df-413f-a464-4711bafa70a0.jpg" class="d-block w-100">
+        </div>
+        <div class="carousel-item">
+          <img src="images/1447fa6b-8000-45db-8347-b7cd7a0ed27e.jpg" class="d-block w-100">
+        </div>
+        <div class="carousel-item">
+          <img src="images/04cf8790-bcb1-422b-825f-96189bfdd06a.jpg" class="d-block w-100">
+        </div>
+        <div class="carousel-item">
+          <img src="images/d1927451-59d9-412d-a7b4-674359ae37cd.jpg" class="d-block w-100">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#housecarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#housecarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
+
+    <figure class="text-center text-dark" id="opening-paragraph">
+      <blockquote class="blockquote" style="font-size: 2rem;">
+        <p><em>
+          "Dwell on these changing seasons, your favorite places, in every waking and dreaming moment. Build your vessel and your monument. Follow your heart, soul and body and you will arive."
+        </em></p>
+      </blockquote
+      <figcaption class="blockquote-footer">
+        -FORM3 Architecture
+      </figcaption>
+    </figure>
+
+    <div class="container-fluid bg-dark text-center p-4 align-middle text-light" id="bio">
+      <div class="row p-4">
+        <div class="col">
+          <h3 class="p-4">
+            Peter J Gilles Jr, Registered Professional Architect, AIA and LEED Green Associate
+          </h3>
+          <h3 class="p-4">
+            "I consider myself an architectural therapist. I believe that a well life focuses on family, education, fitness, nature, and most importantly, Architecture, so I encourage my clients to build better spaces to live in."
+          </h3>
+        </div>
+        <div class="col">
+          <img src="images/7b65d4db-c2c8-40c3-8806-51040471d82a.jpg" class="fluid" id="bio-pic" height="500" width="500">
+        </div>
+      </div>
+      <div class="row p-4">
+        <div class="col" style="font-size: 1.25rem">
+          <p>
+            LEED Green Associate is a professional certificate program acknowledging an individuals concern for the impacts caused by construction on the environment and a commitment to do less harm.
+          </p>
+          <p>
+            Peter is a member of the Environmental Advisory Council of Newtown Township, Bucks County, Pennsylvania.
+          </p>
+        </div>
+        <div class="col">
+          <img src="images/3773f47f-6b4c-4543-ae96-0fd000236920.jpg" class="fluid" height="200" width="200">
+        </div>
+      </div>
+      <div class="row p-4" id="aia" style="font-size: 1.25rem">
+        <div class="col">
+          <p>
+            The American Institute of Architects (AIA) is a professional organization working to advance our nation’s quality of life and protect the public’s health, safety and welfare.
+          </p>
+          <p>
+            Peter is also a member the Historic Architecture Review Board (HARB) and the Building Codes Appeals Board in Upper Makefield Township, Bucks County, Pennsylvania.
+          </p>
+        </div>
+        <div class="col">
+          <img src="images/5cd45e3e-0b66-4f00-b7e7-f7dbb3bcaac6.jpg" class="fluid">
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid text-center bg-light p-4 align-middle text-dark">
+      <div class="row">
+        <div class="col p-4">
+          <h1 class="display-4">
+            Contact Information
+          </h1>
+          <p><a href="mailto:design@form3architecture.com">design@form3architecture.com</a></p>
+          <p>267-377-7409</p>
+          <p>PO BOX 936</p>
+          <p>NEWTOWN, PA 18940</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <p class="lead">
+            Initial consultations are always free.  Contact me to set up an on-site or virtual brief review of your project goals, proposed program, project timeline and budget.
+          </p>
+        </div>
+      </div>
+    </div>
+
   </body>
 </html>
