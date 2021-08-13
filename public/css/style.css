@@ -1,16 +1,16 @@
 #opening-paragraph {
   /* height: 50vh; */
   font-size: 1.5rem;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 @media screen and (min-width: 801px) {
   #housecarousel img {
     width: 90vw;
     height: 90vh;
-  }
-
-  #opening-paragraph {
-    padding: 100px;
   }
 
   #aia img {
@@ -39,6 +39,29 @@
 #image-banner img {
   width: 30vw;
   height: 33vh;
+  margin: 0;
+  padding: 0;
+}
+
+.portfolio img {
+  height: 50vh;
+}
+
+#top-iconography {
+  height: 100vh;
+  background-image: url("../images/3f028c08-89d8-40d6-82e7-cd9d11668218.jpg");
+  background-position: center;
+}
+
+#top-iconography h1 {
+  text-align: center;
+  padding-top: 40vh;
+  /* color: #edde61; */
+}
+
+iframe {
+  height: 99vh;
+  width: 99vw;
   margin: 0;
   padding: 0;
 }
